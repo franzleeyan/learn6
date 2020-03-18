@@ -5,7 +5,7 @@ print('\n newlines and \t')
 poem = """
 \tThe lovely world
 with logic so firmly planted
-cannot discern \n the needs of love
+cannot discern \nthe needs of love
 nor comprehend passion from intuition
 and requires an explanation
 \n\t\twhere there is none
