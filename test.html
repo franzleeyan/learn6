@@ -1,0 +1,407 @@
+<!-- <style type="text/css">
+    /*给网页添加 黑白滤镜*/
+    html{
+        /*兼容FF*/
+        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+        /*兼容IE内核*/
+        filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+        /*兼容其它，谷歌之类的*/
+        -webkit-filter: grayscale(1);
+    }
+</style> -->
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>蜂巢游戏—快乐游戏 快乐生活（gamecomb.com）</title>
+    <meta name="keywords" content="蜂巢游戏,手机游戏,手机网游">
+    <meta name="description" content="蜂巢游戏是国内领先的手机游戏发行商之一，曾成功发行《大掌门》、《妖姬OL》等在国内市场堪称现象级的游戏，深受手机游戏渠道商和手机游戏玩家信任。从2014年以来专注海外产品在中国市场的发行业务。目前，蜂巢游戏已同华纳兄弟互动娱乐、EA、King、Rovio、Fireproof Games、Zynga等著名国外游戏公司展开合作，成功发行了《模拟城市：我是市长》、《糖果苏打传奇》等海外精品手游。">
+    <link rel="icon" type="image/png" href="//web-cdn.gc-serv.cn/gamecomb/resource/images/favicon.png">
+    <link type="text/css" rel="stylesheet" href="//web-cdn.gc-serv.cn/gamecomb/resource/css/libs/base.css">
+    <link type="text/css" rel="stylesheet" href="//web-cdn.gc-serv.cn/gamecomb/resource/css/public.css?v=0.0.8">
+    <link type="text/css" rel="stylesheet" href="//web-cdn.gc-serv.cn/gamecomb/resource/css/topFooter.css?v=0.0.8">
+    <script type="text/javascript" src="//web-cdn.gc-serv.cn/gamecomb/resource/js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="//web-cdn.gc-serv.cn/gamecomb/resource/js/public.js"></script>
+    <script type="text/javascript" src="//web-cdn.gc-serv.cn/gamecomb/resource/js/index.js?v=0.0.8"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+
+</head>
+<body>
+<!--nav start-->
+<div class="nav">
+    <div class="navCenter">
+        <a href="/" class="l logo"></a>
+        <div class="r navRight">
+            <div class="l navLink">
+                                                    <a class="navBorder"
+                                        href="https://www.gamecomb.com">首页</a>
+                                    <a                     href="https://www.gamecomb.com/gamecenter/">游戏中心</a>
+                                    <a                     href="https://www.gamecomb.com/news/">新闻中心</a>
+                                    <a                     href="https://www.gamecomb.com/about/">关于蜂巢</a>
+                                    <a                     href="https://www.gamecomb.com/recruit/">人才招聘</a>
+                                            </div>
+        </div>
+    </div>
+</div><div class="overall">
+    <!--banner start-->
+    <div class="banner">
+        <!--bannerWrap start-->
+        <div class="bannerWrap">
+            <div class="bannerList">
+                <ul id="bannerList">
+                                                                <li>
+                            <div class="bannerIn" style="z-index:1;">
+                                <div class="bannerTxt txtColor">
+                                    <div class="iconWrap">
+                                        <img class="bannerIcon" src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228115118203.png"/>
+                                        <div class="iconCodeBg">
+                                            <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190610/20190610193922844.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="title">
+                                        <h2>决战高尔夫</h2>
+                                        <h2>全民竞技，一杆决胜！</h2>
+                                    </div>
+                                    <div class="describe">
+                                        <p>一款以高尔夫锦标赛为题材的休闲竞技手游。游戏曾获苹果AppStore上百次推荐，长期位居美国区畅销榜Top20。</p>
+                                        <i class="bg details">
+                                            <a href="https://golf.gamecomb.com/" target="_blank"></a>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228194418505.jpg" class="bannerImg"/>
+                        </li>
+                                            <li>
+                            <div class="bannerIn" style="z-index:1;">
+                                <div class="bannerTxt ">
+                                    <div class="iconWrap">
+                                        <img class="bannerIcon" src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228114831644.png"/>
+                                        <div class="iconCodeBg">
+                                            <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228114824148.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="title">
+                                        <h2>模拟城市：我是市长</h2>
+                                        <h2>模拟城市 你的城市</h2>
+                                    </div>
+                                    <div class="describe">
+                                        <p>基于EA旗下27年金牌游戏IP“模拟城市”开发制作。加入了大量蕴含中国元素的新建筑，满足玩家创建中国城的心愿。</p>
+                                        <i class="bg details">
+                                            <a href="http://simcity.gamecomb.com/" target="_blank"></a>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228194446971.jpg" class="bannerImg"/>
+                        </li>
+                                            <li>
+                            <div class="bannerIn" style="z-index:1;">
+                                <div class="bannerTxt ">
+                                    <div class="iconWrap">
+                                        <img class="bannerIcon" src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228113936911.png"/>
+                                        <div class="iconCodeBg">
+                                            <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228113829605.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="title">
+                                        <h2>妖姬OL</h2>
+                                        <h2>爱江山，更爱美人</h2>
+                                    </div>
+                                    <div class="describe">
+                                        <p>畅游三国烽火乱世，一切尽在《妖姬OL》！</p>
+                                        <i class="bg details">
+                                            <a href="http://yjsg.gamecomb.com/" target="_blank"></a>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228194459755.jpg" class="bannerImg"/>
+                        </li>
+                                            <li>
+                            <div class="bannerIn" style="z-index:1;">
+                                <div class="bannerTxt txtColor">
+                                    <div class="iconWrap">
+                                        <img class="bannerIcon" src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228114102983.png"/>
+                                        <div class="iconCodeBg">
+                                            <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228114055162.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="title">
+                                        <h2>The Room</h2>
+                                        <h2>挑战谜题，逃出密室</h2>
+                                    </div>
+                                    <div class="describe">
+                                        <p>由FIREROOF GAMES开发，曾获苹果年度游戏，并摘得GDC最佳移动游戏，TIGA最佳游戏设计奖等一系列奖项。</p>
+                                        <i class="bg details">
+                                            <a href="http://theroom.gamecomb.com/" target="_blank"></a>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228194511400.jpg" class="bannerImg"/>
+                        </li>
+                                                        </ul>
+                <div class="bannerIn">
+                    <ul class="bannerNum" id="bannerNum"></ul>
+                </div>
+            </div>
+            <div class="bannerBtn">
+                <div class="btnArrow" id="prev">
+                    <img src="//web-cdn.gc-serv.cn/gamecomb/resource/images/arrow-left.png"/>
+                </div>
+                <div class="btnArrow" id="next">
+                    <img src="//web-cdn.gc-serv.cn/gamecomb/resource/images/arrow-right.png"/>
+                </div>
+            </div>
+        </div>
+        <!--bannerWrap end-->
+        <div class="bannerMask"></div>
+        <!--conWrap start-->
+        <div class="conWrap">
+            <div class="conBox">
+                <div class="banBox">
+                    <div class="newsCtr">
+                                                                            <a href="javascript:;" class="cur">
+                                <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228143927752.png" alt="">
+                                <em>
+                                    <span>全民竞技，一杆决胜</span>
+                                    <i>决战高尔夫</i>
+                                </em>
+                                <i class="bg triangle"></i>
+                            </a>
+                                                    <a href="javascript:;" class="">
+                                <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228144124319.png" alt="">
+                                <em>
+                                    <span>新地图火爆开启</span>
+                                    <i>模拟城市：我是市长</i>
+                                </em>
+                                <i class="bg triangle"></i>
+                            </a>
+                                                    <a href="javascript:;" class="">
+                                <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228144052514.png" alt="">
+                                <em>
+                                    <span>畅玩三国烽火乱世</span>
+                                    <i>妖姬OL</i>
+                                </em>
+                                <i class="bg triangle"></i>
+                            </a>
+                                                    <a href="javascript:;" class="">
+                                <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190313/20190313135040240.png" alt="">
+                                <em>
+                                    <span>未上锁的房间</span>
+                                    <i>The Room</i>
+                                </em>
+                                <i class="bg triangle"></i>
+                            </a>
+                                                                    </div>
+                    <div class="newsWap">
+                                                                            <a href="https://golf.gamecomb.com" class="cur" target="_blank">
+                                <img src="//web-cdn.gc-serv.cn/gamecomb/upload/200109/20200109110059792.jpg" alt="全民竞技，一杆决胜">
+                            </a>
+                                                    <a href="http://simcity.gamecomb.com" class="" target="_blank">
+                                <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190313/20190313135115210.jpg" alt="新地图火爆开启">
+                            </a>
+                                                    <a href="http://yjsg.gamecomb.com/newslist/huodong/4284.html" class="" target="_blank">
+                                <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190419/20190419174031615.jpg" alt="畅玩三国烽火乱世">
+                            </a>
+                                                    <a href="http://theroom.gamecomb.com" class="" target="_blank">
+                                <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190313/20190313142624807.jpg" alt="未上锁的房间">
+                            </a>
+                                                                    </div>
+                </div>
+                <div class="listBox">
+                    <a href="/news/" class="bg more" target="_blank"></a>
+                                                                                <a href="/2020_content/news_0403/2008.html" class="hotNews" target="_blank">《模拟城市：我是市长》感受踏春郊游的乐趣</a>
+                                        <div class="newsBox">
+                        <div class="newsHot">
+                            <i class="bg"></i>
+                                                                                    <a href="/2020_content/news_0401/2007.html" target="_blank">
+                                <span>《模拟城市：我是市长》清明踏春建筑抢先看</span>
+                            </a>
+                                                    </div>
+                        <ul class="newsList">
+                                                        <li>
+                                <a href="/2020_content/news_0331/2006.html" class="bg" target="_blank">《妖姬OL》姬友大聚会 铁面戏愚人</a>
+                                <span>03-31</span>
+                            </li>
+                                                        <li>
+                                <a href="/2020_content/news_0331/2005.html" class="bg" target="_blank">《模拟城市：我是市长》掀起愚人节狂欢</a>
+                                <span>03-31</span>
+                            </li>
+                                                        <li>
+                                <a href="/2020_content/news_0327/2004.html" class="bg" target="_blank">《模拟城市：我是市长》春日郊游版本全平台更新</a>
+                                <span>03-27</span>
+                            </li>
+                                                        <li>
+                                <a href="/2020_content/news_0326/2003.html" class="bg" target="_blank">《妖姬OL》美人映盛世 倾城不倾国</a>
+                                <span>03-26</span>
+                            </li>
+                                                    </ul>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+        <!--conWrap end-->
+    </div>
+    <!--banner  end-->
+    <!--gameList start-->
+    <div class="content gameList">
+        <div class="conBox">
+            <h2 class="textCenter">游戏列表</h2>
+            <span class="textCenter gameListEn">Game list</span>
+            <div class="hotGameContent">
+                <div class="hotGameTit">
+                    <i class="bg icon"></i>
+                    <span class="hotGameTxt">热门游戏</span>
+                    <a href="/gamecenter/" class="bg more" target="_blank"></a>
+                </div>
+                <ul class="hotGameList">
+                                                                <li>
+                            <div class="indexListBg">
+                                <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228115143295.png" alt="决战高尔夫"/>
+                            </div>
+                            <div class="indexListBg hotGameListBg" style="display: none;">
+                                <div class="hotGameListRight">
+                                    <div class="fcCode">
+                                        <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190610/20190610193922844.png"  alt="决战高尔夫">
+                                    </div>
+                                    <p>扫一扫下载游戏</p>
+                                </div>
+                            </div>
+                            <div class="hotGameListTxt">
+                                <h3>决战高尔夫</h3>
+                                <p>休闲竞技</p>
+                            </div>
+                            <a href="https://golf.gamecomb.com/" target="_blank" class="bg indexBtn"></a>
+                        </li>
+                                            <li>
+                            <div class="indexListBg">
+                                <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228114858160.png" alt="模拟城市：我是市长"/>
+                            </div>
+                            <div class="indexListBg hotGameListBg" style="display: none;">
+                                <div class="hotGameListRight">
+                                    <div class="fcCode">
+                                        <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228114824148.png"  alt="模拟城市：我是市长">
+                                    </div>
+                                    <p>扫一扫下载游戏</p>
+                                </div>
+                            </div>
+                            <div class="hotGameListTxt">
+                                <h3>模拟城市：我是市长</h3>
+                                <p>模拟经营</p>
+                            </div>
+                            <a href="http://simcity.gamecomb.com/" target="_blank" class="bg indexBtn"></a>
+                        </li>
+                                            <li>
+                            <div class="indexListBg">
+                                <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228113851759.png" alt="妖姬OL"/>
+                            </div>
+                            <div class="indexListBg hotGameListBg" style="display: none;">
+                                <div class="hotGameListRight">
+                                    <div class="fcCode">
+                                        <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228113829605.png"  alt="妖姬OL">
+                                    </div>
+                                    <p>扫一扫下载游戏</p>
+                                </div>
+                            </div>
+                            <div class="hotGameListTxt">
+                                <h3>妖姬OL</h3>
+                                <p>策略卡牌</p>
+                            </div>
+                            <a href="http://yjsg.gamecomb.com/" target="_blank" class="bg indexBtn"></a>
+                        </li>
+                                            <li>
+                            <div class="indexListBg">
+                                <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228105414780.png" alt="The Room"/>
+                            </div>
+                            <div class="indexListBg hotGameListBg" style="display: none;">
+                                <div class="hotGameListRight">
+                                    <div class="fcCode">
+                                        <img src="//web-cdn.gc-serv.cn/gamecomb/upload/190228/20190228114055162.png"  alt="The Room">
+                                    </div>
+                                    <p>扫一扫下载游戏</p>
+                                </div>
+                            </div>
+                            <div class="hotGameListTxt">
+                                <h3>The Room</h3>
+                                <p>休闲益智</p>
+                            </div>
+                            <a href="http://theroom.gamecomb.com/" target="_blank" class="bg indexBtn"></a>
+                        </li>
+                                                        </ul>
+            </div>
+        </div>
+    </div>
+    <!--gameList end-->
+
+    <a href="/recruit/" class="recruit" target="_blank"> <!--招聘-->
+        <img src="//web-cdn.gc-serv.cn/gamecomb/resource/images/recruit.png" alt="">
+    </a>
+    <div class="content">
+        <div class="conBox">
+            <table class="indexListLink">
+                <tr>
+                    <td class="about">
+                        <span class="leftBorder"></span>
+                        <h4>关于蜂巢</h4>
+                        <a href="/about/" class="bg" target="_blank">查看详情</a>
+                    </td>
+                    <td class="cooperation">
+                        <span class="leftBorder"></span>
+                        <h4>商务合作</h4>
+                        <a href="/about/#about" class="bg" target="_blank">查看详情</a>
+                    </td>
+                    <td class="service">
+                        <script src="//wpa.b.qq.com/cgi/wpa.php" type="text/javascript"></script>
+                        <span class="leftBorder"></span>
+                        <h4>在线客服</h4>
+                        <a id="BizQQWPA" href="javascript:;" class="bg">查看详情</a>
+                        <script language="javascript">
+                            BizQQWPA.addCustom({aty: '0', a: '0', nameAccount: 800029402, selector: 'BizQQWPA'});
+                        </script>
+                    </td>
+                    <td class="h24">
+                        <span class="leftBorder"></span>
+                        <h4>24h客服热线</h4>
+                        <a href="javascript:;" class="bg">400-751-0010</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+    <div class="footer">
+        <div class="footerCenter">
+            <table>
+                <tr>
+                    <td>
+                        <img src="//web-cdn.gc-serv.cn/gamecomb/resource/images/logo_footer.png" class="footerLogo" alt="蜂巢游戏">
+                    </td>
+                    <td class="text">
+                        <p>健康游戏忠告 : 抵制不良游戏 &nbsp;&nbsp;&nbsp;&nbsp; 拒绝盗版游戏 &nbsp;&nbsp;&nbsp;&nbsp; 注意自我保护   谨防受骗上当 &nbsp;&nbsp;&nbsp;&nbsp; 适度游戏益脑 &nbsp;&nbsp;&nbsp;&nbsp; 沉迷游戏伤身 &nbsp;&nbsp;&nbsp;&nbsp; 合理安排时间 &nbsp;&nbsp;&nbsp;&nbsp; 享受健康生活
+                        </p>
+                        <p>北京北纬通信科技股份有限公司 版权所有Copyright © 2012-2019 All Rights Reserved</p>
+                        <p>
+                            <span>京公网安备11010802010906</span>
+                            <a href="http://www.beian.miit.gov.cn" target="_blank">京ICP证000125-42</a>
+                            <span>京网文（2016）5427-695号</span>
+                            <span>京B2-20090144</span>
+                        </p>
+                    </td>
+                    <td class="weChatCont">
+                        <img src="//web-cdn.gc-serv.cn/gamecomb/resource/images/fc_code.jpg" class="weChat" alt="蜂巢游戏官方微信公众号">
+                        <p>蜂巢游戏官方微信公众号</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div style="display:none;">
+        <script type="text/javascript" async src="//s9.cnzz.com/z_stat.php?id=5695065&web_id=5695065"></script>
+    </div>
+
+</body>
+</html>
